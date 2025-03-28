@@ -65,14 +65,14 @@ chmod +x *.sh
 ### Step 1: Run the Main Deployment Script
 To start the deployment, execute the following command:
 ```bash
-bash deploy/main_deploy.sh <gitrepo link>
+deploy/main_deploy.sh <gitrepo link>
 ```
 Replace `<gitrepo link>` with the actual repository URL.
 
 ### Step 2: Run the Deploy Dashboard Script
 Once the main deployment script has been executed, run the deploy dashboard script:
 ```bash
-bash deploy/deploy_dashboard.sh
+deploy/deploy_dashboard.sh
 ```
 
 ### Step 3: Check the Port Number
