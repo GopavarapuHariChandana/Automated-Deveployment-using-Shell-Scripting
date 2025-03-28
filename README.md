@@ -65,22 +65,22 @@ chmod +x *.sh
 ### Step 1: Run the Main Deployment Script
 To start the deployment, execute the following command:
 ```bash
-bash deploy/main_deploy.sh <gitrepo link>
+deploy/main_deploy.sh <gitrepo link>
 ```
 Replace `<gitrepo link>` with the actual repository URL.
 
 ### Step 2: Run the Deploy Dashboard Script
 Once the main deployment script has been executed, run the deploy dashboard script:
 ```bash
-bash deploy/deploy_dashboard.sh
+deploy/deploy_dashboard.sh
 ```
 
-### Step 3: Check the Port Number
-The dashboard runs on port **3000**. To access it, open Google Chrome (or any browser) and enter:
+### Step 3: Access the Deployed Project
+The deployed project is accessible via the EC2 instance's IP address and port number. Open Google Chrome (or any browser) and enter:
 ```
-http://<your-ip-address>:3000
+http://<your-ec2-ip>:<port>
 ```
-Replace `<your-ip-address>` with the actual IP address of your system.
+Replace `<your-ec2-ip>` with the actual IP address of your EC2 instance and `<port>` with the correct port number.
 
 ### Step 4: Clean Up Old Backups (Optional but Recommended)
 To manage storage efficiently, run:
