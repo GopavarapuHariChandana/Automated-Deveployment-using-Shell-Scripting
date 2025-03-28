@@ -76,11 +76,11 @@ deploy/deploy_dashboard.sh
 ```
 
 ### Step 3: Access the Deployed Project
-The deployed project is accessible via the EC2 instance's IP address and port number. Open Google Chrome (or any browser) and enter:
+The deployed project is accessible via the EC2 instance's IP address and port number **3000**. Open Google Chrome (or any browser) and enter:
 ```
-http://<your-ec2-ip>:<port>
+http://<your-ec2-ip>:3000
 ```
-Replace `<your-ec2-ip>` with the actual IP address of your EC2 instance and `<port>` with the correct port number.
+Replace `<your-ec2-ip>` with the actual IP address of your EC2 instance.
 
 ### Step 4: Clean Up Old Backups (Optional but Recommended)
 To manage storage efficiently, run:
