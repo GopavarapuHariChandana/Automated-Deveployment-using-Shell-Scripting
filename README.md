@@ -28,7 +28,7 @@ chmod +x *.sh
 - Handles fetching the latest code from the repository.
 - Run the script using:
   ```bash
-  ./git_manager.sh <repo-name>
+  ./git_manager.sh 
   ```
 - Pulls the latest changes from the GitHub repository.
 - Logs all actions in `logs/deploy.log`.
