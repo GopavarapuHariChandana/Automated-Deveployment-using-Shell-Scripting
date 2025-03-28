@@ -1,5 +1,4 @@
-# Automated-Deveployment-using-Shell-Scripting
-# Project Deployment Automation
+# Automated-Project Deployment-using-Shell-Scripting
 
 ## Overview
 This project automates the process of detecting, building, and deploying different types of projects. It consists of multiple shell scripts that handle various tasks such as identifying the project type, managing builds, deploying the project, and cleaning up old backups.
