@@ -78,7 +78,7 @@ deploy/deploy_dashboard.sh
 ### Step 3: Access the Deployed Project
 The deployed project is accessible via the EC2 instance's IP address and port number **3000**. Open Google Chrome (or any browser) and enter:
 ```
-http://<your-ec2-ip>:3000
+<your-ec2-ip>:3000
 ```
 Replace `<your-ec2-ip>` with the actual IP address of your EC2 instance.
 
