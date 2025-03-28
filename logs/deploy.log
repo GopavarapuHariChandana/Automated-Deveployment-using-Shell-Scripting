@@ -549,3 +549,59 @@
 127.0.0.1 - - [27/Mar/2025 12:08:04] "GET / HTTP/1.1" 200 -
 ✅ App is running fine (HTTP 200)
 ===== [Deploy Manager] Completed =====
+🔄 Pulling latest changes...
+📦 Backup created at /home/ec2-user/Project-1-Final/backups/backup_20250327_160425
+🌐 Serving static HTML on port 3000...
+✅ Static server started.
+127.0.0.1 - - [27/Mar/2025 16:04:27] "GET / HTTP/1.1" 200 -
+✅ App is running fine (HTTP 200)
+===== [Deploy Manager] Completed =====
+152.59.204.57 - - [27/Mar/2025 16:04:30] "GET / HTTP/1.1" 200 -
+152.59.204.57 - - [27/Mar/2025 16:04:30] code 404, message File not found
+152.59.204.57 - - [27/Mar/2025 16:04:30] "GET /favicon.ico HTTP/1.1" 404 -
+152.59.204.57 - - [27/Mar/2025 16:04:35] "GET /h.html HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2025 16:05:15] "GET / HTTP/1.1" 200 -
+🔄 Pulling latest changes...
+📦 Backup created at /home/ec2-user/Project-1-Final/backups/backup_20250327_160526
+🌐 Serving static HTML on port 3000...
+✅ Static server started.
+127.0.0.1 - - [27/Mar/2025 16:05:28] "GET / HTTP/1.1" 200 -
+✅ App is running fine (HTTP 200)
+===== [Deploy Manager] Completed =====
+127.0.0.1 - - [27/Mar/2025 16:06:02] "GET / HTTP/1.1" 200 -
+🔄 Pulling latest changes...
+📦 Backup created at /home/ec2-user/Project-1-Final/backups/backup_20250327_161126
+🌐 Serving static HTML on port 3000...
+✅ Static server started.
+127.0.0.1 - - [27/Mar/2025 16:11:29] "GET / HTTP/1.1" 200 -
+✅ App is running fine (HTTP 200)
+===== [Deploy Manager] Completed =====
+127.0.0.1 - - [27/Mar/2025 16:11:46] "GET / HTTP/1.1" 200 -
+152.59.204.57 - - [27/Mar/2025 16:11:53] code 404, message File not found
+152.59.204.57 - - [27/Mar/2025 16:11:53] "GET /h.html HTTP/1.1" 404 -
+127.0.0.1 - - [27/Mar/2025 16:16:12] "GET / HTTP/1.1" 200 -
+152.59.204.57 - - [27/Mar/2025 16:16:20] code 404, message File not found
+152.59.204.57 - - [27/Mar/2025 16:16:20] "GET /h.html HTTP/1.1" 404 -
+152.59.204.57 - - [27/Mar/2025 16:19:34] "GET / HTTP/1.1" 200 -
+152.59.204.57 - - [27/Mar/2025 16:19:39] "GET /Welcome.html HTTP/1.1" 200 -
+185.246.128.192 - - [27/Mar/2025 20:44:00] code 404, message File not found
+185.246.128.192 - - [27/Mar/2025 20:44:00] "GET /rootDesc.xml HTTP/1.0" 404 -
+101.204.80.5 - - [27/Mar/2025 21:44:21] "GET / HTTP/1.1" 200 -
+221.199.101.205 - - [27/Mar/2025 21:44:32] "GET / HTTP/1.1" 200 -
+43.248.108.87 - - [27/Mar/2025 21:44:36] code 404, message File not found
+43.248.108.87 - - [27/Mar/2025 21:44:36] "GET /favicon.ico HTTP/1.1" 404 -
+45.79.181.251 - - [27/Mar/2025 23:42:47] code 400, message Bad request syntax ('\\x16\\x03\\x01\\x01')
+45.79.181.251 - - [27/Mar/2025 23:42:47] "\x16\x03\x01\x01" 400 -
+45.79.181.251 - - [27/Mar/2025 23:42:47] code 400, message Bad request syntax ('\\x16\\x03\\x01\\x01')
+45.79.181.251 - - [27/Mar/2025 23:42:47] "\x16\x03\x01\x01" 400 -
+65.49.1.63 - - [28/Mar/2025 06:49:56] "GET / HTTP/1.1" 200 -
+65.49.1.64 - - [28/Mar/2025 06:50:13] code 404, message File not found
+65.49.1.64 - - [28/Mar/2025 06:50:13] "GET /favicon.ico HTTP/1.1" 404 -
+64.225.25.177 - - [28/Mar/2025 06:56:18] "GET / HTTP/1.1" 200 -
+64.225.25.177 - - [28/Mar/2025 06:56:18] code 404, message File not found
+64.225.25.177 - - [28/Mar/2025 06:56:18] "GET /favicon.ico HTTP/1.1" 404 -
+44.220.188.237 - - [28/Mar/2025 10:13:08] code 400, message Bad HTTP/0.9 request type ('\\x00')
+44.220.188.237 - - [28/Mar/2025 10:13:08] "\x00\x1eZ\x0f\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03" 400 -
+44.220.188.237 - - [28/Mar/2025 10:13:12] code 400, message Bad request syntax ('\\x00)OR\\x01\\x00\\x00\\x01\\x00\\x00\\x00\\x00\\x00\\x01\\x03www\\x04bing\\x03com\\x00\\x00\\x01\\x00\\x01\\x00\\x00)ÿÿ\\x00\\x00\\x00\\x00\\x00\\x00')
+44.220.188.237 - - [28/Mar/2025 10:13:12] "\x00)OR\x01\x00\x00\x01\x00\x00\x00\x00\x00\x01\x03www\x04bing\x03com\x00\x00\x01\x00\x01\x00\x00)ÿÿ\x00\x00\x00\x00\x00\x00" 400 -
+20.163.14.222 - - [28/Mar/2025 10:29:47] "GET / HTTP/1.1" 200 -
