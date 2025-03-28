@@ -27,7 +27,7 @@ Before using this automation, ensure you have the following installed on your sy
 ### 1️⃣ `git_manager.sh`
 Handles fetching the latest code from the repository.
 ```bash
-./git_manager.sh
+./git_manager.sh <repo-name>
 ```
 - Pulls the latest changes from the GitHub repository.
 - Logs all actions in `logs/deploy.log`.
