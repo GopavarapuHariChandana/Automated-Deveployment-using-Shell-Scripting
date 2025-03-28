@@ -28,7 +28,7 @@ chmod +x *.sh
 - Handles fetching the latest code from the repository.
 - Run the script using:
   ```bash
-  ./git_manager.sh 
+  ./git_manager.sh <repo-name>
   ```
 - Pulls the latest changes from the GitHub repository.
 - Logs all actions in `logs/deploy.log`.
@@ -65,14 +65,14 @@ chmod +x *.sh
 ### Step 1: Run the Main Deployment Script
 To start the deployment, execute the following command:
 ```bash
-deploy/main_deploy.sh <gitrepo link>
+bash deploy/main_deploy.sh <gitrepo link>
 ```
 Replace `<gitrepo link>` with the actual repository URL.
 
 ### Step 2: Run the Deploy Dashboard Script
 Once the main deployment script has been executed, run the deploy dashboard script:
 ```bash
-deploy/deploy_dashboard.sh
+bash deploy/deploy_dashboard.sh
 ```
 
 ### Step 3: Check the Port Number
@@ -87,6 +87,9 @@ To manage storage efficiently, run:
 ```bash
 ./cleanup_manager.sh
 ```
+
+## Automating Execution with Cron Jobs
+We used **crontab** to automate the execution of these scripts. This ensures that code updates, builds, deployments, and cleanup tasks run at scheduled intervals without manual intervention.
 
 ## Logs & Debugging
 - All script logs are stored in `logs/deploy.log` for reference.
